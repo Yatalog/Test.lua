@@ -1,0 +1,25 @@
+local player = game.Players.LocalPlayer
+local character = player.Character or player.CharacterAdded:Wait()
+
+-- Функция для создания клона и замены оригинала
+local function createClone()
+    local clone = character:Clone()
+    
+    -- Устанавливаем клон в мир
+    clone.Parent = game.Workspace
+    clone:SetPrimaryPartCFrame(character.PrimaryPart.CFrame + Vector3.new(5, 0, 0)) -- Сдвигаем клона немного в сторону
+    
+    -- Убедимся, что клон имеет Humanoid
+    local humanoid = clone:FindFirstChild("Humanoid")
+    if humanoid then
+        humanoid:MakeJoints() -- Восстанавливаем соединения
+    end
+
+    -- Удаляем оригинального персонажа
+    character:Destroy()
+    
+    -- Устанавливаем клон как новый персонаж игрока
+    player.Character = clone
+end
+
+createClone()
