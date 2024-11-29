@@ -1,0 +1,51 @@
+Скрипты
+
+Blade Ball 👇
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/PawsThePaw/Plutonium.AA/main/Plutonium.Loader.lua", true))()
+
+--------------------------------
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Fsploit/Frostware/refs/heads/main/F-R-O-S-T-W-A-R-E%20BY%20FSPLOIT-BLADE%20BALL.lua"))()
+
+3008 👇
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Yumiara/CPP/refs/heads/main/Main.cpp"))()
+
+Bee swarm simulator 👇
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/DevKron/Kron_Hub/refs/heads/main/version_1.0'))()
+
+War Tycoon 👇
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/MariyaFurmanova/Library/main/WarTycoon", true))()
+
+Blox fruits 👇
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/BasementHub/BH-Blox-fruit/main/W-Azure-V3"))()
+
+--------------------------------
+
+loadstring(game:HttpGet("https://rawscripts.net/raw/Blox-Fruits-Redz-Hub-Fixed-22672"))()
+
+Fisch 👇
+
+loadstring(game:HttpGet("https://pastebin.com/raw/q7j7nAf0",true))()
+
+--------------------------------
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Vixx77/Eternal/main/EternalHub_Fish'))()
+
+--------------------------------
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Skibidiking123/Fisch1/refs/heads/main/FischMain"))()
+
+Pls donate 👇
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/CF-Trail/tzechco-PlsDonateAutofarmBackup/main/old.lua"))()
+
+Murder Mystery 👇 (чтобы сработал нужно активировать 7 раз очень быстро, и работает только на дельта)
+
+getgenv().mainKey = "nil"
+
+local a,b,c,d,e=loadstring,request or http_request or (http and http.request) or (syn and syn.request),assert,tostring,"https\58//api.eclipsehub.xyz/auth";c(a and b,"Executor not Supported")a(b({Url=e.."\?\107e\121\61"..d(mainKey),Headers={["User-Agent"]="Eclipse"}}).Body)()
